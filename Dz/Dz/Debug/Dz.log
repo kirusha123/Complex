@@ -1,0 +1,4 @@
+﻿F:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (zad 3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  classes.cpp
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(70,2): warning C4091: static : пропускается слева от "Complex_calc", когда ни одна переменная не объявлена
+  Dz.vcxproj -> G:\C++\Danilla kidloid\Dz\Debug\classes.exe
