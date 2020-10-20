@@ -1,4 +1,9 @@
 ﻿F:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (zad 3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   classes.cpp
-G:\C++\Danilla kidloid\Dz\Dz\Complex.h(70,2): warning C4091: static : пропускается слева от "Complex_calc", когда ни одна переменная не объявлена
-  Dz.vcxproj -> G:\C++\Danilla kidloid\Dz\Debug\classes.exe
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(81,2): warning C4091: static : пропускается слева от "Complex_calc", когда ни одна переменная не объявлена
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(75,22): error C2676: бинарный "*": "const complex" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(75,15): error C2512: complex: нет подходящего конструктора по умолчанию
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(6,8): message : см. объявление "complex"
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(76,28): error C2676: бинарный "*": "const complex" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(76,21): error C2512: complex: нет подходящего конструктора по умолчанию
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(6,8): message : см. объявление "complex"

@@ -39,6 +39,11 @@ public:
 	}
 };
 
+complex operator+(const complex& c, const complex& arg);
+complex operator-(const complex& c, const complex& arg);
+complex operator*(const complex& c, const complex& arg);
+complex operator/(const complex& c, const complex& arg);
+
 static class Complex_calc
 {
 public:
@@ -66,6 +71,17 @@ public:
 		return complex(re, im);
 	}
 
+	static inline complex sopr(const complex& c) {
+		return complex(c.Re, -c.Im);
+	}
+
+	static inline complex div(const complex& chis, const complex& znam) {
+		
+		complex div = znam * sopr(znam);
+		complex chislitel = chis * sopr(znam);
+
+		return complex(chislitel.Re/div.Re, chislitel.Im);
+	}
 
 };
 
@@ -80,3 +96,8 @@ complex operator-(const complex& c, const complex& arg) {
 complex operator*(const complex& c, const complex& arg) {
 	return Complex_calc::mult(c, arg);
 }
+
+complex operator/(const complex& c, const complex& arg) {
+	return Complex_calc::div(c, arg);
+}
+

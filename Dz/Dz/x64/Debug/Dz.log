@@ -1,0 +1,3 @@
+﻿  classes.cpp
+G:\C++\Danilla kidloid\Dz\Dz\Complex.h(86,2): warning C4091: static : пропускается слева от "Complex_calc", когда ни одна переменная не объявлена
+  Dz.vcxproj -> G:\C++\Danilla kidloid\Dz\x64\Debug\classes.exe
